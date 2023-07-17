@@ -1200,6 +1200,7 @@ h3 {
             padding-left: 20px;
             white-space: nowrap;
             background: #fff;
+            font-weight: bold;
         }
 
         .service-item .item .s-des {
