@@ -19,7 +19,7 @@ function slowScrollTo(targetY) {
 }
 
 window.addEventListener("load", function () {
-  const targetID = "#nail-service"; // Get the target ID from the URL hash
+  const targetID = "#manicures-service"; // Get the target ID from the URL hash
   if (targetID) {
     const targetElement = document.querySelector(targetID);
     if (targetElement) {
