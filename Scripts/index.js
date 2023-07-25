@@ -77,4 +77,23 @@ window.addEventListener("DOMContentLoaded", function () {
   }
 });
 
-// Scroll to the specific section when the page is loaded from another page or refreshed
+// append images to the gallery
+$(document).ready(function () {
+  // Loop through the images
+  for (let i = 1; i <= 14; i++) {
+    // Create a new div with the image
+    let imageDiv = $('<div class="col-md-3">');
+    let imgContainer = $('<div class="img-container">');
+
+    let image = $("<img>", {
+      src: `./Content/images/Manicure/${i}.jpg`,
+      class: "img-fluid rounded-circle",
+      alt: `Image ${i}`,
+    });
+    imgContainer.append(image);
+
+    imageDiv.append(imgContainer);
+    // Append the new div to the gallery
+    $("#image-gallery").append(imageDiv);
+  }
+});
