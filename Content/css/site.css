@@ -393,7 +393,7 @@ h3 {
 
 .footer .ft-info {
 }
-
+    
     .footer .ft-info .form-group {
         margin-bottom: 0;
     }
@@ -1371,4 +1371,9 @@ h3 {
     .wp-package {
         margin-bottom: 20px;
     }
+}
+
+.footer-font-custom {
+    font-size: 16px;
+    font-weight: 600;
 }
