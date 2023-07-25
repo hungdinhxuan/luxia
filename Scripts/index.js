@@ -80,7 +80,7 @@ window.addEventListener("DOMContentLoaded", function () {
 // append images to the gallery
 $(document).ready(function () {
   // Loop through the images
-  for (let i = 1; i <= 14; i++) {
+  for (let i = 1; i <= 12; i++) {
     // Create a new div with the image
     let imageDiv = $('<div class="col-md-3">');
     let imgContainer = $('<div class="img-container">');
