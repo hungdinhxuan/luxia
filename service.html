@@ -27,7 +27,31 @@
     <link href="Content/css/dlmenu.css" rel="stylesheet" />
     <link href="Content/css/custom.css" rel="stylesheet" />
 
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
 
+        .circle {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .circle img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border: none; /* Loại bỏ viền */
+        }
+        
+    </style>
 </head>
 
 <body class="home-page">
@@ -1346,13 +1370,32 @@
                                     </div>
                                 </div>
                             </div>
+                        
+                            
+                            
+                            </div>
+                            <div >
+                                <style>
+                                    .imageChange {
+                                        max-width: 400px;
+                                        height: auto;  
+                                        
+                                    }
+                                </style>
+                                <center>
+                                    <img src="./Content/images/Byob.jpg"   alt="Hình ảnh" class="imageChange">
+                                </center>
+                                
+                            </div>
                             <div class="container">
                                 <div class="row" id="image-gallery">
-                                    <!-- Images will be inserted here by jQuery -->
-                                </div>
+                                <!-- Images will be inserted here by jQuery -->
                             </div>
+                            </div>
+                            
+                            
             </section>
-
+            
 
         </section>
 
